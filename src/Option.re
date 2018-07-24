@@ -20,7 +20,7 @@ let isNone = opt =>
         };
 
 let mapOr = (default, fn, opt) =>
-switch(opt) {
+    switch(opt) {
     | Some(x) => fn(x)
     | None => default
     };
