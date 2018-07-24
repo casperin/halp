@@ -26,10 +26,10 @@ switch(opt) {
     };
 
 let next = (opt1, opt2) =>
-isSome(opt1) ? opt2 : None;
+    isSome(opt1) ? opt2 : None;
 
 let prev = (opt1, opt2) =>
-isSome(opt2) ? opt1 : None;
+    isSome(opt2) ? opt1 : None;
 
 let or_ = (opt1, opt2) =>
     isSome(opt1) ? opt1 : opt2;
